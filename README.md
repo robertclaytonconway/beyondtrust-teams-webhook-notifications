@@ -1,3 +1,7 @@
+## Screenshot
+
+![BeyondTrust Teams Webhook Notification](screenshots/beyondtrust-teams-card.png)
+
 # BeyondTrust EPM Teams Webhook Notifications
 
 A portfolio-safe automation project for sending BeyondTrust Endpoint Privilege Management workflow notifications to Microsoft Teams using webhooks.
