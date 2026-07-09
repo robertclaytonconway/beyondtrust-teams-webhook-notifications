@@ -1,0 +1,13 @@
+{
+  "event_type": "jit_admin_request",
+  "environment": "Lab",
+  "user": "jsmith@example.com",
+  "hostname": "WIN10-TEST-01",
+  "platform": "Windows",
+  "request_type": "Temporary Admin Access",
+  "duration": "24 hours",
+  "application": "ExampleInstaller.exe",
+  "reason": "Install approved business application",
+  "status": "Pending Review",
+  "timestamp": "2026-01-01T12:00:00Z"
+}

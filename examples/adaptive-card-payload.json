@@ -1,0 +1,50 @@
+{
+  "type": "message",
+  "attachments": [
+    {
+      "contentType": "application/vnd.microsoft.card.adaptive",
+      "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.4",
+        "body": [
+          {
+            "type": "TextBlock",
+            "text": "BeyondTrust EPM JIT Admin Request",
+            "weight": "Bolder",
+            "size": "Large"
+          },
+          {
+            "type": "FactSet",
+            "facts": [
+              {
+                "title": "User:",
+                "value": "jsmith@example.com"
+              },
+              {
+                "title": "Host:",
+                "value": "WIN10-TEST-01"
+              },
+              {
+                "title": "Request Type:",
+                "value": "Temporary Admin Access"
+              },
+              {
+                "title": "Duration:",
+                "value": "24 hours"
+              },
+              {
+                "title": "Reason:",
+                "value": "Install approved business application"
+              },
+              {
+                "title": "Status:",
+                "value": "Pending Review"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
